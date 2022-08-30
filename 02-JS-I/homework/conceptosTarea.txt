@@ -1,0 +1,76 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes 
+conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará 
+a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables
+	Las variables son la manera como los programadores le dan nombre a un valor para 
+	poder reusarlo, actualizarlo o simplemente registrarlo. Las variables se pueden usar 
+	para guardar cualquier tipo de dato en JavaScript.
+
+	Las variables son un concepto fundamental en cualquier lenguaje de programación. En 
+	JavaScript, puedes declarar variables usando las palabras clave var, const o let.
+
+Strings
+	El objeto String permite manipular cadenas de texto
+	cuando hablamos de una varible que posee información de texto, decimos que su tipo de 
+	dato es String. En Javascript, es muy sencillo crear una variable de texto. A rasgos 
+	generales, hay dos formas principales de hacerlo:
+
+	Crea un objeto de texto a partir del texto text pasado por parámetro {new String(text)}
+	Simplemente, escribimos el texto entre comillas simples o dobles. {"texto"}
+
+Funciones (argumento, return)
+	Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una 
+	función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que 
+	realiza una tarea o calcula un valor, pero para que un procedimiento califique como 
+	función, debe tomar alguna entrada y devolver una salida donde hay alguna relación 
+	obvia entre la entrada y la salida. Para usar una función, debes definirla en algún 
+	lugar del ámbito desde el que deseas llamarla.
+
+	Las variables que necesitan las funciones se llaman argumentos. Antes de que pueda 
+	utilizarlos, la función debe indicar cuántos argumentos necesita y cuál es el nombre 
+	de cada argumento. Además, al invocar la función, se deben incluir los valores que se 
+	le van a pasar a la función. Los argumentos se indican dentro de los paréntesis que 
+	van detrás del nombre de la función y se separan con una coma (,).
+
+	Return es una instrucción de Javascript que sale de la función actual y devuelve el 
+	valor de la misma. Lo primero que hay que saber es que si no existe return dentro de 
+	la función y se llama a dicha función, la consola devuelve el valor como “undefined” 
+	(no está definido)
+
+	Lo segundo es saber en qué casos se usa return en Javascript y son dos:
+	Cuando literalmente queremos devolver el valor de la función.
+	Cuando queremos que la función deje de ejecutarse.
+
+Decalaraciones if
+	A menudo queremos ser capaces de hacer cosas "condicionalmente" en nuestros programas:
+	queremos ser capaces de decir "si esta cosa es verdad, entonces haz X, pero si esta 
+	otra cosa es verdad, entonces haz Y". Es como cuando despertamos por la mañana: "si 
+	afuera está lloviendo, entonces llevo un paraguas, pero si está soleado, me pongo 
+	lentes de sol". Podemos hacer cosas condicionalmente en nuestros programas al usar 
+	declaraciones if y declaraciones if/else combinadas con expresiones condicionales.
+
+	La sentencia condicional if se usa para tomar decisiones, este evaluá básicamente una 
+	operación lógica, es decir una expresión que de como resultado True o False, y ejecuta
+	la pieza de código siguiente siempre y cuando el resultado sea verdadero.
+	
+valores booleanos(true, false)
+	Los booleanos son un tipo de dato primitivo comúnmente usado en lenguajes de 
+	programación. Por definición, un booleano tiene 2 posibles valores: true (verdadero) 
+	o false (falso).
+
+	Solo hay unos cuantos valores que generan coerción a falso:
+	false (en realidad no genera coerción porque ya es falso)
+	null
+	undefined
+	NaN
+	0
+	-0
+	0n, -0n (BigInt)
+	" ", ' ', ` ` (cadena de texto vacía)
+	document.all
+	Cualquier otro valor diferente de los anteriores generan coerción a verdadero.
+
+	Cualquier objeto que no tenga como valor undefined o null, incluyendo cualquier objeto
+	Boolean que tenga como valor falso, será evaluado como verdadero cuando se pase por un
+	a sentencia condicional. Al ser verdadero, ejecutará la función.
